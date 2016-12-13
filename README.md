@@ -93,7 +93,7 @@ Before read/write ODPS data, we need to initialize an OdpsOps, like:
 
 	import com.aliyun.odps.TableSchema
 	import com.aliyun.odps.data.Record
-	import org.apache.spark.aliyun.odps.OdpsOps
+	import org.apache.spark.aliyun.maxcompute.OdpsOps
 	import org.apache.spark.{SparkContext, SparkConf}
 	
 	object Sample {

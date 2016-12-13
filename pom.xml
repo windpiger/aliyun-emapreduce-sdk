@@ -4,10 +4,10 @@
 
     <groupId>com.aliyun.emr</groupId>
     <artifactId>emr_2.10</artifactId>
-    <version>1.3.1-SNAPSHOT</version>
+    <version>1.4.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
-    <name>Aliyun EMR</name>
+    <name>E-MapReduce</name>
     <description>Hadoop/Spark on Aliyun, supporting interactions with Aliyun's base services.</description>
     <url>http://www.aliyun.com/product/emapreduce</url>
 
@@ -27,8 +27,12 @@
 
     <modules>
         <module>core</module>
-        <module>sdk</module>
         <module>examples</module>
+        <module>external/emr-ons</module>
+        <module>external/emr-mns</module>
+        <module>external/emr-logservice</module>
+        <module>external/emr-maxcompute</module>
+        <module>external/emr-tablestore</module>
     </modules>
 
     <properties>

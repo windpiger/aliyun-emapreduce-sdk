@@ -40,7 +40,7 @@ We have to create an external table in Hive/SparkSQL to let them known the exist
 ```
 CREATE EXTERNAL TABLE pet
   (name STRING, owner STRING, species STRING, sex STRING, birth STRING, death STRING)
-  STORED BY 'com.aliyun.openservices.tablestore.hive.TableStoreStorageHandler'
+  STORED BY 'TableStoreStorageHandler'
   WITH SERDEPROPERTIES(
     "tablestore.columns.mapping"="name,owner,species,sex,birth,death")
   TBLPROPERTIES (

@@ -19,7 +19,7 @@ package com.aliyun.emr.examples.streaming
 import org.apache.spark.SparkConf
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming.aliyun.mns.MnsUtils
-import org.apache.spark.streaming.{StreamingContext, Seconds}
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 object TestMNS {
   def main(args: Array[String]): Unit = {

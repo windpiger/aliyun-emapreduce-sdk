@@ -17,9 +17,9 @@
 package com.aliyun.emr.examples.streaming
 
 import org.apache.spark.storage.StorageLevel
-import org.apache.spark.streaming.aliyun.logservice.LoghubUtils
 import org.apache.spark.streaming.{Milliseconds, StreamingContext}
 import org.apache.spark.SparkConf
+import org.apache.spark.streaming.aliyun.logservice.LoghubUtils
 
 object TestLoghub {
   def main(args: Array[String]): Unit = {
